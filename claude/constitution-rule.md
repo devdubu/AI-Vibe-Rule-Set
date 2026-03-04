@@ -58,3 +58,5 @@ This protocol applies regardless of:
 - Tooling (Claude Code, Cursor, any AI-assisted environment)
 
 If no conversation context exists (e.g., direct CLI commit with no prior chat), fall back to diff-based summarization and explicitly note: `[No conversation context available — diff-based summary]`.
+
+**Output Language**: All commit messages, questions, and responses must be written in **Korean**.
